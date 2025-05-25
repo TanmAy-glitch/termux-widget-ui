@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terminal Cult</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      background-color: #0f0f0f;
+      color: #e0e0e0;
+      font-family: 'Fira Mono', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .terminal-box {
+      background-color: #000;
+      border-radius: 16px;
+      width: 80%;
+      max-width: 600px;
+      height: 300px;
+      resize: both;
+      overflow: auto;
+      padding: 1rem;
+      box-shadow: 0 0 10px #222;
+      box-sizing: border-box;
+    }
+
+    .project-details {
+      margin-top: 2rem;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Terminal Cult</h1>
+  <div class="terminal-box" contenteditable="true">
+    <!-- Community feed or demo content goes here -->
+    echo "Welcome to the network."
+  </div>
+
+  <div class="project-details">
+    <!-- Add project info, setup instructions, etc. here later -->
+    <p>Coming soon: setup guide, community rules, and terminal rituals.</p>
+  </div>
+</body>
+</html>
 
